@@ -206,3 +206,103 @@ Body {
     border: 1px solid #343a40;
     user-select: none;
 }
+
+/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
+.quiz_box header .time_line{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 3px;
+    background: #007bff;
+}
+
+/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
+section{
+    padding: 25px 30px 20px 30px;
+    background: rgb(194, 247, 4);
+}
+
+/* The code was taken by https://www.codingnepalweb.com/ */
+section .que_text{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* The code was taken by https://www.codingnepalweb.com/ */
+section .option_list{
+    padding: 20px 0px;
+    display: block;   
+}
+
+/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
+section .option_list .option{
+    background: rgb(6, 240, 170);
+    border: 1px solid #84c5fe;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 17px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* The code was taken by https://www.codingnepalweb.com/ */
+section .option_list .option:last-child{
+    margin-bottom: 0px;
+}
+
+/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
+section .option_list .option:hover{
+    color: #004085;
+    background: #f6f7f5;
+    border: 1px solid #b8daff;
+}
+
+/* The code was taken by https://www.codingnepalweb.com/ */
+section .option_list .option.correct{
+    color: #155724;
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+}
+
+/* The code was taken by https://www.codingnepalweb.com/ */
+section .option_list .option.incorrect{
+    color: #721c24;
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+}
+
+/* The code was taken by https://www.codingnepalweb.com/ */
+section .option_list .option.disabled{
+    pointer-events: none;
+}
+
+/* The code was taken by https://www.codingnepalweb.com/ */
+section .option_list .option .icon{
+    height: 26px;
+    width: 26px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 13px;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    line-height: 24px;
+}
+
+/* The code was taken by https://www.codingnepalweb.com/ */
+.option_list .option .icon.tick{
+    color: #23903c;
+    border-color: #23903c;
+    background: #d4edda;
+}
+
+/* The code was taken by https://www.codingnepalweb.com/ */
+.option_list .option .icon.cross{
+    color: #a42834;
+    background: #f8d7da;
+    border-color: #a42834;
+}
