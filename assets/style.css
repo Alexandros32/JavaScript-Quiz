@@ -429,3 +429,26 @@ footer button.show{
     border: 1px solid #007bff;
     transition: all 0.3s ease;
 }
+
+/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
+.buttons button.restart{
+    color: #fff;
+    background: #7343f7;
+}
+
+/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
+.buttons button.restart:hover{
+    background: #400775;
+}
+
+/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
+.buttons button.quit{
+    color: #007bff;
+    background: #fff;
+}
+
+/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
+.buttons button.quit:hover{
+    color: #fff;
+    background: #400775;
+}
