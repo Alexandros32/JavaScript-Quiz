@@ -61,3 +61,15 @@ Body {
     background: rgb(6, 240, 170);
 }
 
+/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
+.start_btn button{
+    font-size: 25px;
+    font-weight: 500;
+    color: #3d0275;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: rgb(6, 240, 170);
+    cursor: pointer;
+}
