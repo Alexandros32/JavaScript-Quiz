@@ -73,3 +73,54 @@ Body {
     background: rgb(6, 240, 170);
     cursor: pointer;
 }
+
+/* The code was taken by https://www.codingnepalweb.com/ */
+.info_box{
+    width: 540px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    transform: translate(-50%, -50%) scale(0.9);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+/* The code was taken by https://www.codingnepalweb.com/ */
+.info_box .info-title{
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    border-radius: 5px 5px 0 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* The code was taken by https://www.codingnepalweb.com/ */
+.info_box .info-list{
+    padding: 15px 30px;
+}
+
+/* The code was taken by https://www.codingnepalweb.com/ */
+.info_box .info-list .info{
+    margin: 5px 0;
+    font-size: 17px;
+}
+
+/* The code was taken by https://www.codingnepalweb.com/ */
+.info_box .info-list .info span{
+    font-weight: 600;
+    color: #2600ff;
+}
+
+/* The code was taken by https://www.codingnepalweb.com/ */
+.info_box .buttons{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 30px;
+    border-top: 1px solid lightgrey;
+}
