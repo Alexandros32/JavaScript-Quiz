@@ -1,0 +1,29 @@
+/* importing google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+/* The code was taken by https://www.codingnepalweb.com/ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* The code was taken by https://www.codingnepalweb.com/ */
+.page-footer {
+    font-size: 20px;
+    margin-top: 600px;
+    justify-content: center;
+    color: lightgreen;
+   
+}
+/* I have created this code on my own */
+span.navbar-text {
+    font-size: 40px;
+    margin: 550px;
+    justify-content: center;
+    color: lightgreen;
+}
+/* I have created this code on my own */
+Body {
+    background: darkslategrey;
+}
