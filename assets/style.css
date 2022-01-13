@@ -52,7 +52,7 @@ Body {
 /* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
 .info_box.activeInfo,
 .quiz_box.activeQuiz,
-.result_box.activeResult{
+.result_box.activeResult {
     opacity: 1;
     z-index: 5;
     pointer-events: auto;
