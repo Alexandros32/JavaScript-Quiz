@@ -8,14 +8,15 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 /* The code was taken by https://www.codingnepalweb.com/ */
 .page-footer {
     font-size: 20px;
     margin-top: 600px;
     justify-content: center;
-    color: lightgreen;
-   
+    color: lightgreen; 
 }
+
 /* I have created this code on my own */
 span.navbar-text {
     font-size: 40px;
@@ -23,7 +24,9 @@ span.navbar-text {
     justify-content: center;
     color: lightgreen;
 }
+
 /* I have created this code on my own */
 Body {
     background: darkslategrey;
 }
+
