@@ -306,3 +306,62 @@ section .option_list .option .icon{
     background: #f8d7da;
     border-color: #a42834;
 }
+
+/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
+footer{
+    height: 60px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 3px solid rgb(133, 5, 253);
+}
+
+/* The code was taken by https://www.codingnepalweb.com/ */
+footer .total_que span{
+    display: flex;
+    user-select: none;
+}
+
+/* The code was taken by https://www.codingnepalweb.com/ */
+footer .total_que span p{
+    font-weight: 500;
+    padding: 0 5px;
+}
+
+/* The code was taken by https://www.codingnepalweb.com/ */
+footer .total_que span p:first-child{
+    padding-left: 0px;
+}
+
+/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
+footer button{
+    height: 40px;
+    padding: 0 13px;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    background: #7343f7;
+    border: 1px solid #007bff;
+    line-height: 10px;
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.95);
+    transition: all 0.3s ease;
+}
+
+/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
+footer button:hover{
+    background: #400775;
+}
+
+/* The code was taken by https://www.codingnepalweb.com/ */
+footer button.show{
+    opacity: 1;
+    pointer-events: auto;
+    transform: scale(1);
+}
