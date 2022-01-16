@@ -16,9 +16,9 @@
     justify-content: center;
     color: lightgreen; 
 }
-@media screen and (min-width:  576px) {
+@media screen and (max-width:  576px) {
 .page-footer {
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 600px;
     justify-content: center;
  }
@@ -48,50 +48,44 @@
 .page-footer {
   font-size: 20px;
   margin-top: 600px;
-  justify-content: center;
+  text-align: center;
  }
 }
 /* I have created this code on my own */
-span.navbar-text {
+div.container-fluid {
     font-size: 40px;
-    margin: 550px;
-    justify-content: center;
+    text-align: center;
     color: lightgreen;
 }
 
-@media screen and (min-width:  576px) {
-span.navbar-text {
-    font-size: 16px;
-    margin: 550px;
-    justify-content: center;
+@media screen and (max-width:  576px) {
+    div.container-fluid {
+        font-size: 20px;
+        text-align: center;
  }
 }
 @media screen and (min-width: 768px) {
-span.navbar-text {
-    font-size: 16px;
-    margin: 550px;
-    justify-content: center;
+    div.container-fluid {
+        font-size: 40px;
+        text-align: center;
  }
 }
 @media screen and (min-width: 992px) {
-span.navbar-text {
-    font-size: 20px;
-    margin: 550px;
-    justify-content: center;
+    div.container-fluid {
+        font-size: 40px;
+        text-align: center;
  }
 }
 @media screen and (min-width: 1200px) {
-span.navbar-text {
-    font-size: 40px;
-    margin: 550px;
-    justify-content: center;
+    div.container-fluid {
+        font-size: 40px;
+        text-align: center;
  }
 }
 @media screen and (min-width: 1400px) {
-span.navbar-text {
-    font-size: 40px;
-    margin: 550px;
-    justify-content: center;
+    div.container-fluid {
+        font-size: 40px;
+        text-align: center;
  }
 }
 /* I have created this code on my own */
