@@ -16,7 +16,41 @@
     justify-content: center;
     color: lightgreen; 
 }
-
+@media screen and (min-width:  576px) {
+.page-footer {
+    font-size: 20px;
+    margin-top: 600px;
+    justify-content: center;
+ }
+}  
+@media screen and (min-width: 768px) {
+.page-footer {
+    font-size: 20px;
+    margin-top: 600px;
+    justify-content: center;
+ }
+}
+@media screen and (min-width: 992px) {
+.page-footer {
+    font-size: 20px;
+    margin-top: 600px;
+    justify-content: center; 
+ }
+}
+@media screen and (min-width: 1200px) {
+.page-footer {
+    font-size: 20px;
+    margin-top: 600px;
+    justify-content: center;   
+ }
+}
+@media screen and (min-width: 1400px) {
+.page-footer {
+  font-size: 20px;
+  margin-top: 600px;
+  justify-content: center;
+ }
+}
 /* I have created this code on my own */
 span.navbar-text {
     font-size: 40px;
@@ -25,6 +59,41 @@ span.navbar-text {
     color: lightgreen;
 }
 
+@media screen and (min-width:  576px) {
+span.navbar-text {
+    font-size: 16px;
+    margin: 550px;
+    justify-content: center;
+ }
+}
+@media screen and (min-width: 768px) {
+span.navbar-text {
+    font-size: 16px;
+    margin: 550px;
+    justify-content: center;
+ }
+}
+@media screen and (min-width: 992px) {
+span.navbar-text {
+    font-size: 20px;
+    margin: 550px;
+    justify-content: center;
+ }
+}
+@media screen and (min-width: 1200px) {
+span.navbar-text {
+    font-size: 40px;
+    margin: 550px;
+    justify-content: center;
+ }
+}
+@media screen and (min-width: 1400px) {
+span.navbar-text {
+    font-size: 40px;
+    margin: 550px;
+    justify-content: center;
+ }
+}
 /* I have created this code on my own */
 Body {
     background: darkslategrey;
