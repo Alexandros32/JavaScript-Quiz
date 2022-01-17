@@ -116,6 +116,7 @@ Body {
         cursor: pointer;
     }
 }
+
 @media screen and (max-width: 768px) {
     .start_btn button {
         font-size: 20px;
@@ -129,6 +130,7 @@ Body {
         cursor: pointer;
     }
 }
+
 /* The code was taken by https://www.codingnepalweb.com/ */
 .info_box{
     width: 540px;
