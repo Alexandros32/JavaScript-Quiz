@@ -16,41 +16,21 @@
     justify-content: center;
     color: lightgreen; 
 }
-@media screen and (max-width:  576px) {
+@media screen and (max-width: 576px) {
 .page-footer {
     font-size: 16px;
     margin-top: 600px;
     justify-content: center;
  }
 }  
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
 .page-footer {
     font-size: 16px;
     margin-top: 600px;
     justify-content: center;
  }
 }
-@media screen and (min-width: 992px) {
-.page-footer {
-    font-size: 20px;
-    margin-top: 600px;
-    justify-content: center; 
- }
-}
-@media screen and (min-width: 1200px) {
-.page-footer {
-    font-size: 20px;
-    margin-top: 600px;
-    justify-content: center;   
- }
-}
-@media screen and (min-width: 1400px) {
-.page-footer {
-  font-size: 20px;
-  margin-top: 600px;
-  text-align: center;
- }
-}
+
 /* I have created this code on my own */
 div.container-fluid {
     font-size: 40px;
@@ -69,25 +49,7 @@ div.container-fluid {
         font-size: 25px;
         text-align: center;
  }
-}
-@media screen and (min-width: 992px) {
-    div.container-fluid {
-        font-size: 40px;
-        text-align: center;
- }
-}
-@media screen and (min-width: 1200px) {
-    div.container-fluid {
-        font-size: 40px;
-        text-align: center;
- }
-}
-@media screen and (min-width: 1400px) {
-    div.container-fluid {
-        font-size: 40px;
-        text-align: center;
- }
-}
+ 
 /* I have created this code on my own */
 Body {
     background: darkslategrey;
@@ -137,6 +99,32 @@ Body {
     cursor: pointer;
 }
 
+@media screen and (max-width: 576px) {
+    .start_btn button {
+        font-size: 18px;
+        font-weight: 500;
+        color: #3d0275;
+        padding: 15px 30px;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        background: rgb(6, 240, 170);
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 768px) {
+    .start_btn button {
+        font-size: 20px;
+        font-weight: 500;
+        color: #3d0275;
+        padding: 15px 30px;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        background: rgb(6, 240, 170);
+        cursor: pointer;
+    }
+}
 /* The code was taken by https://www.codingnepalweb.com/ */
 .info_box{
     width: 540px;
