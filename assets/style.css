@@ -16,13 +16,15 @@
     justify-content: center;
     color: lightgreen; 
 }
+
 @media screen and (max-width: 576px) {
 .page-footer {
     font-size: 16px;
     margin-top: 600px;
     justify-content: center;
  }
-}  
+} 
+
 @media screen and (max-width: 768px) {
 .page-footer {
     font-size: 16px;
@@ -44,12 +46,14 @@ div.container-fluid {
         text-align: center;
  }
 }
+
 @media screen and (max-width: 768px) {
     div.container-fluid {
         font-size: 25px;
         text-align: center;
  }
- 
+}
+
 /* I have created this code on my own */
 Body {
     background: darkslategrey;
