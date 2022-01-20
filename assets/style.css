@@ -143,6 +143,31 @@ Body {
     transition: all 0.3s ease;
 }
 
+@media screen and (max-width:  576px) {
+    .info_box{
+        width: 100%;
+        background: rgb(255, 255, 255);
+        border-radius: 5px;
+        transform: translate(-50%, -50%) scale(0.9);
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.3s ease;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .info_box{
+        width: 100%;
+        background: rgb(255, 255, 255);
+        border-radius: 5px;
+        transform: translate(-50%, -50%) scale(0.9);
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.3s ease;
+    }
+}
+
 /* The code was taken by https://www.codingnepalweb.com/ */
 .info_box .info-title{
     height: 60px;
