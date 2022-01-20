@@ -144,7 +144,7 @@ Body {
 .info_box .info-title{
     height: 60px;
     width: 100%;
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 2px solid rgb(133, 5, 253);
     display: flex;
     align-items: center;
     padding: 0 30px;
@@ -177,7 +177,7 @@ Body {
     align-items: center;
     justify-content: flex-end;
     padding: 0 30px;
-    border-top: 1px solid lightgrey;
+    border-top: 2px solid rgb(133, 5, 253);
 }
 
 /* The code was taken by https://www.codingnepalweb.com/ */
@@ -205,7 +205,6 @@ Body {
     pointer-events: none;
     transition: all 0.3s ease;
 }
-
 
 @media screen and (max-width: 768px) {
     .quiz_box{
@@ -237,6 +236,13 @@ Body {
 .quiz_box header .title{
     font-size: 20px;
     font-weight: 600;
+}
+
+@media screen and (max-width: 576px) {
+    .quiz_box header .title{
+        font-size: 18px;
+        font-weight: 600;
+    }
 }
 
 /* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
@@ -449,7 +455,6 @@ footer button.show{
     pointer-events: none;
     transition: all 0.3s ease;
 }
-
 
 @media screen and (max-width: 768px) {
     .result_box{
