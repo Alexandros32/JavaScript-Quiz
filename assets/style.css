@@ -209,6 +209,13 @@ Body {
 @media screen and (max-width: 768px) {
     .quiz_box{
         width: 100%;
+        
+    }
+}
+@media screen and (max-width: 320px) {
+    .quiz_box{
+        width: 100%;
+        top:55%
     }
 }
 
