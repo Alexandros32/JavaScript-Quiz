@@ -1,6 +1,11 @@
 /* importing google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+
 /* The code was taken by https://www.codingnepalweb.com/ */
 *{
     margin: 0;
@@ -10,13 +15,23 @@
 }
 
 /* I have written this code on my own */
-.page-footer {
+#content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+  
+  .page-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;  
     font-size: 20px;
     margin-top: 600px;
     justify-content: center;
     color: lightgreen; 
-    border-top: none;
-}
+    border-top: none;   
+  }
+
+    
 
 /* I have written this code on my own */
 @media screen and (max-width: 768px) {
@@ -222,7 +237,7 @@ Body {
 @media screen and (max-width: 320px) {
     .quiz_box{
         width: 100%;
-        top:55%
+        top:50%
     }
 }
 
