@@ -9,7 +9,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* I have created this code on my own */
+/* I have written this code on my own */
 .page-footer {
     font-size: 20px;
     margin-top: 600px;
@@ -18,6 +18,7 @@
     border-top: none;
 }
 
+/* I have written this code on my own */
 @media screen and (max-width: 768px) {
 .page-footer {
     font-size: 16px;
@@ -26,13 +27,14 @@
  }
 }
 
-/* I have created this code on my own */
+/* I have written this code on my own */
 div.container-fluid {
     font-size: 40px;
     text-align: center;
     color: lightgreen;
 }
 
+/* I have written this code on my own */
 @media screen and (max-width: 768px) {
     div.container-fluid {
         font-size: 25px;
@@ -40,7 +42,7 @@ div.container-fluid {
  }
 }
 
-/* I have created this code on my own */
+/* I have written this code on my own */
 Body {
     background: darkslategrey;
 }
@@ -89,6 +91,7 @@ Body {
     cursor: pointer;
 }
 
+/* I have written this code on my own */
 @media screen and (max-width: 576px) {
     .start_btn button {
         font-size: 18px;
@@ -103,6 +106,7 @@ Body {
     }
 }
 
+/* I have written this code on my own */
 @media screen and (max-width: 768px) {
     .start_btn button {
         font-size: 20px;
@@ -128,6 +132,7 @@ Body {
     transition: all 0.3s ease;
 }
 
+/* I have written this code on my own */
 @media screen and (max-width: 768px) {
     .info_box{
         width: 100%;
@@ -140,7 +145,7 @@ Body {
     }
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ */
+/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
 .info_box .info-title{
     height: 60px;
     width: 100%;
@@ -170,7 +175,7 @@ Body {
     color: #2600ff;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ */
+/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
 .info_box .buttons{
     height: 60px;
     display: flex;
@@ -206,12 +211,14 @@ Body {
     transition: all 0.3s ease;
 }
 
+/* I have written this code on my own */
 @media screen and (max-width: 768px) {
     .quiz_box{
-        width: 100%;
-        
+        width: 100%;  
     }
 }
+
+/* I have written this code on my own */
 @media screen and (max-width: 320px) {
     .quiz_box{
         width: 100%;
@@ -239,6 +246,7 @@ Body {
     font-weight: 600;
 }
 
+/* I have written this code on my own */
 @media screen and (max-width: 576px) {
     .quiz_box header .title{
         font-size: 18px;
@@ -457,10 +465,10 @@ footer button.show{
     transition: all 0.3s ease;
 }
 
+/* I have written this code on my own */
 @media screen and (max-width: 768px) {
     .result_box{
         width: 100%;
-    
     }
 }
 
