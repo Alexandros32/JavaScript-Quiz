@@ -520,6 +520,23 @@ footer button.show{
     transition: all 0.3s ease;
 }
 
+/* I have written this code on my own */
+@media screen and (max-width: 370px) {
+    .result_box .buttons button {
+    margin: 0 10px;
+    height: 55px;
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+    transition: all 0.3s ease;
+    }
+}
+
 /* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
 .buttons button.restart{
     color: #fff;
