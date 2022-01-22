@@ -1,6 +1,7 @@
 /* importing google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
+/* The code was taken by https://www.freecodecamp.org/ */
 #page-container {
     position: relative;
     min-height: 100vh;
@@ -14,11 +15,12 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* I have written this code on my own */
+/* The code was taken by https://www.freecodecamp.org/ */
 #content-wrap {
-    padding-bottom: 2.5rem;    /* Footer height */
+    padding-bottom: 2.5rem;    
   }
   
+/* The code was taken by https://www.freecodecamp.org/ and i have adjust it in my needs */
   .page-footer {
     position: absolute;
     bottom: 0;
