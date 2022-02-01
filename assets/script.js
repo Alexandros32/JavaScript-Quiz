@@ -190,12 +190,12 @@ function startTimer(time) {
 
 // The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs
 function startTimerLine(time) {
-	counterLine = setInterval(timer, 56);
+	counterLine = setInterval(timer, 310);
 
 	function timer() {
 		time += 1;
-		time_line.style.width = time + "px";
-		if (time > 549) {
+		time_line.style.width = time + "%";
+		if (time > 99) {
 			clearInterval(counterLine);
 		}
 	}
