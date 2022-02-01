@@ -1,7 +1,7 @@
-// The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs
+// The code has been taken by https://www.codingnepalweb.com/ and i have adjusted it in my needs
 let questions = [{
   numb: 1,
-  question: "What is the capital of Greece?",
+  question: "Which of the below is the capital of Greece?",
   answer: "Athens",
   options: ["Thessaloniki", "Larissa", "Athens", "Patra"]
 },
@@ -9,7 +9,7 @@ let questions = [{
 // The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs
 {
   numb: 2,
-  question: "What is the capital of England?",
+  question: "Which of the below is the capital of England?",
   answer: "London",
   options: ["Manchester", "London", "Birmingham", "Liverpool"]
 },
@@ -17,7 +17,7 @@ let questions = [{
 // The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs
 {
   numb: 3,
-  question: "What is the capital of Italy?",
+  question: "Which of the below is the capital of Italy?",
   answer: "Rome",
   options: ["Milan", "Naples", "Turin", "Rome"]
 },
@@ -25,7 +25,7 @@ let questions = [{
 // The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs
 {
   numb: 4,
-  question: "What is the capital of France?",
+  question: "Which of the below is the capital of France?",
   answer: "Paris",
   options: ["Paris", "Marseille", "Lyon", "Toulouse"]
 },
@@ -33,7 +33,7 @@ let questions = [{
 // The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs
 {
   numb: 5,
-  question: "What is the capital of Spain?",
+  question: "Which of the below is the capital of Spain?",
   answer: "Madrid",
   options: ["Barcelona", "Valencia", "Madrid", "Sevilla"]
 },
@@ -41,7 +41,7 @@ let questions = [{
 // The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs
 {
   numb: 6,
-  question: "What is the capital of Germany?",
+  question: "Which of the below is the capital of Germany?",
   answer: "Berlin",
   options: ["Munich", "Berlin", "Hamburg", "Frankfurt"]
 },
@@ -49,7 +49,7 @@ let questions = [{
 // The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs
 {
   numb: 7,
-  question: "What is the capital of Portugal?",
+  question: "Which of the below is the capital of Portugal?",
   answer: "Lisbon",
   options: ["Porto", "Braga", "Coimbra", "Lisbon"]
 },
@@ -57,7 +57,7 @@ let questions = [{
 // The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs
 {
   numb: 8,
-  question: "What is the capital of Scotland?",
+  question: "Which of the below is the capital of Scotland?",
   answer: "Edinburgh",
   options: ["Edinburgh", "Glasgow", "Aberdeen", "Dundee"]
 },
@@ -65,7 +65,7 @@ let questions = [{
 // The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs
 {
   numb: 9,
-  question: "What is the capital of Switzerland?",
+  question: "Which of the belowis the capital of Switzerland?",
   answer: "Bern",
   options: ["Zurich", "Geneva", "Basel", "Bern"]
 },
@@ -73,7 +73,7 @@ let questions = [{
 // The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs
 {
   numb: 10,
-  question: "What is the capital of Austria?",
+  question: "Which of the below is the capital of Austria?",
   answer: "Vienna",
   options: ["Salzburg", "Vienna", "Graz", "Linz"]
 },
