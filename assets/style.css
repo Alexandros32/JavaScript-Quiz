@@ -1,13 +1,13 @@
 /* importing google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
-/* The code was taken by https://www.freecodecamp.org/ */
+/* The code has been taken by https://www.freecodecamp.org/ */
 #page-container {
 	position: relative;
 	min-height: 100vh;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ */
+/* The code has been taken by https://www.codingnepalweb.com/ */
 * {
 	margin: 0;
 	padding: 0;
@@ -15,12 +15,12 @@
 	font-family: 'Poppins', sans-serif;
 }
 
-/* The code was taken by https://www.freecodecamp.org/ */
+/* The code has been by https://www.freecodecamp.org/ */
 #content-wrap {
 	padding-bottom: 2.5rem;
 }
 
-/* The code was taken by https://www.freecodecamp.org/ and i have adjust it in my needs */
+/* The code has been taken by https://www.freecodecamp.org/ and i have adjusted it in my needs */
 .page-footer {
 	position: absolute;
 	bottom: 0;
@@ -62,13 +62,13 @@ Body {
 	background: darkslategrey;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
+/* The code has been taken by https://www.codingnepalweb.com/ and i have adjusted it in my needs */
 ::selection {
 	color: #fff;
 	background: #fffb00;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ */
+/* The code has been taken by https://www.codingnepalweb.com/ */
 .start_btn, .info_box, .quiz_box, .result_box {
 	position: absolute;
 	top: 50%;
@@ -77,7 +77,7 @@ Body {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
+/* The code has been taken by https://www.codingnepalweb.com/ and i have adjusted it in my needs */
 .info_box.activeInfo, .quiz_box.activeQuiz, .result_box.activeResult {
 	opacity: 1;
 	z-index: 5;
@@ -87,7 +87,7 @@ Body {
 	background: rgb(6, 240, 170);
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
+/* The code has been taken by https://www.codingnepalweb.com/ and i have adjusted it in my needs */
 .start_btn button {
 	font-size: 25px;
 	font-weight: 500;
@@ -130,7 +130,7 @@ Body {
 	}
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ */
+/* The code has been taken by https://www.codingnepalweb.com/ */
 .info_box {
 	width: 540px;
 	background: rgb(255, 255, 255);
@@ -154,7 +154,7 @@ Body {
 	}
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
+/* The code has been taken by https://www.codingnepalweb.com/ and i have adjusted it in my needs */
 .info_box .info-title {
 	height: 60px;
 	width: 100%;
@@ -167,24 +167,24 @@ Body {
 	font-weight: 600;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ */
+/* The code has been taken by https://www.codingnepalweb.com/ */
 .info_box .info-list {
 	padding: 15px 30px;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ */
+/* The code has been taken by https://www.codingnepalweb.com/ */
 .info_box .info-list .info {
 	margin: 5px 0;
 	font-size: 17px;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ */
+/* The code has been taken by https://www.codingnepalweb.com/ */
 .info_box .info-list .info span {
 	font-weight: 600;
 	color: #2600ff;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
+/* The code has been taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
 .info_box .buttons {
 	height: 60px;
 	display: flex;
@@ -194,7 +194,7 @@ Body {
 	border-top: 2px solid rgb(133, 5, 253);
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ */
+/* The code has been taken by https://www.codingnepalweb.com/ */
 .info_box .buttons button {
 	margin: 0 5px;
 	height: 40px;
@@ -209,7 +209,7 @@ Body {
 	transition: all 0.3s ease;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
+/* The code has been taken by https://www.codingnepalweb.com/ and i have adjusted it in my needs */
 .quiz_box {
 	width: 550px;
 	background: rgb(216, 240, 6);
@@ -235,7 +235,7 @@ Body {
 	}
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
+/* The code has been taken by https://www.codingnepalweb.com/ and i have adjusted it in my needs */
 .quiz_box header {
 	position: relative;
 	z-index: 2;
@@ -249,7 +249,7 @@ Body {
 	box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.1);
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ */
+/* The code has been taken by https://www.codingnepalweb.com/ */
 .quiz_box header .title {
 	font-size: 20px;
 	font-weight: 600;
@@ -263,7 +263,7 @@ Body {
 	}
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
+/* The code has been taken by https://www.codingnepalweb.com/ and i have adjusted it in my needs */
 .quiz_box header .timer {
 	color: #fff;
 	background: #4604fd;
@@ -277,14 +277,14 @@ Body {
 	width: 145px;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ */
+/* The code has been taken by https://www.codingnepalweb.com/ */
 .quiz_box header .timer .time_left_txt {
 	font-weight: 400;
 	font-size: 17px;
 	user-select: none;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
+/* The code has been taken by https://www.codingnepalweb.com/ and i have adjusted it in my needs */
 .quiz_box header .timer .timer_sec {
 	font-size: 18px;
 	font-weight: 500;
@@ -299,7 +299,7 @@ Body {
 	user-select: none;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
+/* The code has been taken by https://www.codingnepalweb.com/ and i have adjusted it in my needs */
 .quiz_box header .time_line {
 	position: absolute;
 	bottom: 0px;
@@ -308,25 +308,25 @@ Body {
 	background: #007bff;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
+/* The code has been taken by https://www.codingnepalweb.com/ and i have adjusted it in my needs */
 section {
 	padding: 25px 30px 20px 30px;
 	background: rgb(194, 247, 4);
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ */
+/* The code has been taken by https://www.codingnepalweb.com/ */
 section .que_text {
 	font-size: 25px;
 	font-weight: 600;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ */
+/* The code has been taken by https://www.codingnepalweb.com/ */
 section .option_list {
 	padding: 20px 0px;
 	display: block;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
+/* The code has been taken by https://www.codingnepalweb.com/ and i have adjusted it in my needs */
 section .option_list .option {
 	background: rgb(6, 240, 170);
 	border: 1px solid #84c5fe;
@@ -341,38 +341,38 @@ section .option_list .option {
 	justify-content: space-between;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ */
+/* The code has been taken by https://www.codingnepalweb.com/ */
 section .option_list .option:last-child {
 	margin-bottom: 0px;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
+/* The code has been taken by https://www.codingnepalweb.com/ and i have adjusted it in my needs */
 section .option_list .option:hover {
 	color: #004085;
 	background: #f6f7f5;
 	border: 1px solid #b8daff;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ */
+/* The code has been taken by https://www.codingnepalweb.com/ */
 section .option_list .option.correct {
 	color: #155724;
 	background: #d4edda;
 	border: 1px solid #c3e6cb;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ */
+/* The code has been taken by https://www.codingnepalweb.com/ */
 section .option_list .option.incorrect {
 	color: #721c24;
 	background: #f8d7da;
 	border: 1px solid #f5c6cb;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ */
+/* The code has been taken by https://www.codingnepalweb.com/ */
 section .option_list .option.disabled {
 	pointer-events: none;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ */
+/* The code has been taken by https://www.codingnepalweb.com/ */
 section .option_list .option .icon {
 	height: 26px;
 	width: 26px;
@@ -385,21 +385,21 @@ section .option_list .option .icon {
 	line-height: 24px;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ */
+/* The code has been taken by https://www.codingnepalweb.com/ */
 .option_list .option .icon.tick {
 	color: #23903c;
 	border-color: #23903c;
 	background: #d4edda;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ */
+/* The code has been taken by https://www.codingnepalweb.com/ */
 .option_list .option .icon.cross {
 	color: #a42834;
 	background: #f8d7da;
 	border-color: #a42834;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
+/* The code has been taken by https://www.codingnepalweb.com/ and i have adjusted it in my needs */
 footer {
 	height: 60px;
 	padding: 0 30px;
@@ -409,24 +409,24 @@ footer {
 	border-top: 3px solid rgb(133, 5, 253);
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ */
+/* The code has been taken by https://www.codingnepalweb.com/ */
 footer .total_que span {
 	display: flex;
 	user-select: none;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ */
+/* The code has been taken by https://www.codingnepalweb.com/ */
 footer .total_que span p {
 	font-weight: 500;
 	padding: 0 5px;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ */
+/* The code has been taken by https://www.codingnepalweb.com/ */
 footer .total_que span p:first-child {
 	padding-left: 0px;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
+/* The code has been taken by https://www.codingnepalweb.com/ and i have adjusted it in my needs */
 footer button {
 	height: 40px;
 	padding: 0 13px;
@@ -446,19 +446,19 @@ footer button {
 	transition: all 0.3s ease;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
+/* The code has been taken by https://www.codingnepalweb.com/ and i have adjusted it in my needs */
 footer button:hover {
 	background: #400775;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ */
+/* The code has been taken by https://www.codingnepalweb.com/ */
 footer button.show {
 	opacity: 1;
 	pointer-events: auto;
 	transform: scale(1);
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ */
+/* The code has been taken by https://www.codingnepalweb.com/ */
 .result_box {
 	background: #fff;
 	border-radius: 5px;
@@ -481,20 +481,20 @@ footer button.show {
 	}
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
+/* The code has been taken by https://www.codingnepalweb.com/ and i have adjusted it in my needs */
 .result_box .icon {
 	font-size: 100px;
 	color: #400775;
 	margin-bottom: 10px;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ */
+/* The code has been taken by https://www.codingnepalweb.com/ */
 .result_box .complete_text {
 	font-size: 20px;
 	font-weight: 500;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ */
+/* The code has been taken by https://www.codingnepalweb.com/ */
 .result_box .score_text span {
 	display: flex;
 	margin: 10px 0;
@@ -502,19 +502,19 @@ footer button.show {
 	font-weight: 500;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ */
+/* The code has been taken by https://www.codingnepalweb.com/ */
 .result_box .score_text span p {
 	padding: 0 4px;
 	font-weight: 600;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ */
+/* The code has been taken by https://www.codingnepalweb.com/ */
 .result_box .buttons {
 	display: flex;
 	margin: 20px 0;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ */
+/* The code has been taken by https://www.codingnepalweb.com/ */
 .result_box .buttons button {
 	margin: 0 10px;
 	height: 45px;
@@ -546,24 +546,24 @@ footer button.show {
 	}
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
+/* The code has been taken by https://www.codingnepalweb.com/ and i have adjusted it in my needs */
 .buttons button.restart {
 	color: #fff;
 	background: #7343f7;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
+/* The code has been taken by https://www.codingnepalweb.com/ and i have adjusted it in my needs */
 .buttons button.restart:hover {
 	background: #400775;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
+/* The code has been taken by https://www.codingnepalweb.com/ and i have adjusted it in my needs */
 .buttons button.quit {
 	color: #007bff;
 	background: #fff;
 }
 
-/* The code was taken by https://www.codingnepalweb.com/ and i have adjust it in my needs */
+/* The code has been taken by https://www.codingnepalweb.com/ and i have adjusted it in my needs */
 .buttons button.quit:hover {
 	color: #fff;
 	background: #400775;
