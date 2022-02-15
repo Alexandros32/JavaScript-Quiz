@@ -446,6 +446,14 @@ footer button {
 	transition: all 0.3s ease;
 }
 
+/* I have written this code on my own */
+@media screen and (max-width: 343px) {
+	footer button {
+	font-size: 16px;
+	line-height: 15px;
+	}
+}
+
 /* The code has been taken by https://www.codingnepalweb.com/ and i have adjusted it in my needs */
 footer button:hover {
 	background: #400775;
