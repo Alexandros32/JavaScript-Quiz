@@ -103,7 +103,6 @@ function showQuetions(index) {
 		option[i].setAttribute("onclick", "optionSelected(this)");
 	}
 }
-
 // The code has been taken by https://www.codingnepalweb.com/ 
 let tickIconTag = '<div class="icon tick"><i class="fas fa-check"></i></div>';
 let crossIconTag = '<div class="icon cross"><i class="fas fa-times"></i></div>';
