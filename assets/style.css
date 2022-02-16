@@ -449,8 +449,8 @@ footer button {
 /* I have written this code on my own */
 @media screen and (max-width: 343px) {
 	footer button {
-	font-size: 16px;
-	line-height: 15px;
+		font-size: 16px;
+		line-height: 15px;
 	}
 }
 
